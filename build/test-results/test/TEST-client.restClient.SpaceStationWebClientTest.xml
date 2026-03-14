@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="client.restClient.SpaceStationWebClientTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-08-21T20:20:18" hostname="LM-KT6QQQ6PHC" time="0.819">
+  <properties/>
+  <testcase name="requestPosition()" classname="client.restClient.SpaceStationWebClientTest" time="0.819"/>
+  <system-out><![CDATA[22:20:17.955 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [client.restClient.SpaceStationWebClientTest]: SpaceStationWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:20:17.999 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration client.SpringConfiguration for test class client.restClient.SpaceStationWebClientTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2024-08-21T22:20:18.139+02:00  INFO 12344 --- [    Test worker] c.restClient.SpaceStationWebClientTest   : Starting SpaceStationWebClientTest using Java 17.0.7 with PID 12344 (started by francois_auger in /Users/francois_auger/Dev/sandbox)
+2024-08-21T22:20:18.139+02:00  INFO 12344 --- [    Test worker] c.restClient.SpaceStationWebClientTest   : No active profile set, falling back to 1 default profile: "default"
+2024-08-21T22:20:18.750+02:00 ERROR 12344 --- [    Test worker] i.n.r.d.DnsServerAddressStreamProviders  : Unable to load io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'. Use DEBUG level to see the full stack: java.lang.UnsatisfiedLinkError: failed to load the required native library
+2024-08-21T22:20:18.932+02:00  INFO 12344 --- [    Test worker] c.restClient.SpaceStationWebClientTest   : Started SpaceStationWebClientTest in 0.871 seconds (process running for 1.315)
+SpaceStation(timestamp=2024-08-21T20:20:19Z, iss_position=IssPosition(longitude=114.9788, latitude=39.4543), message=success)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
